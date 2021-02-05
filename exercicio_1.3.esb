@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.totvs.com/ESB/Components" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <Diagram xmi:id="_xlr7YGcuEeuLE6kS-Aq75A" comments="">
+    <Receiver xmi:type="WSReceiver" xmi:id="_yKWusGcuEeuLE6kS-Aq75A" name="WSReceiver0" errorInterval="600" enabled="true" interval="60" url="http://18.231.110.71:8080/webdesk/ECMColleagueService?wsdl" type="0" operation="getColleagues" useSSL="false" paramsTokens="username~Text~treinamento.aluno|password~Text~123|companyId~Number~1" useAuthentication="false" passwordType="0" useJAXBCustom="false" sslKeystoreType="JKS" sslTruststoreType="JKS">
+      <Relations xmi:type="Link" xmi:id="_0ORHMGcuEeuLE6kS-Aq75A" Source="_yKWusGcuEeuLE6kS-Aq75A" Target="_zgYtgGcuEeuLE6kS-Aq75A"/>
+    </Receiver>
+    <Sender xmi:type="FileSender" xmi:id="_zgYtgGcuEeuLE6kS-Aq75A" name="FileSender0" errorInterval="5" tries="3" persist="false" directory="C:\Users\Administrador.EC2AMAZ-RR9E5DT\Desktop\Treinamento\ex_1.3\out" fileName="colleague_${uniqueID}.xml" append="false"/>
+  </Diagram>
+  <notation:Diagram xmi:id="_xlr7YWcuEeuLE6kS-Aq75A" type="Esb" element="_xlr7YGcuEeuLE6kS-Aq75A" name="exercicio_1.3.esb" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_yKYj4GcuEeuLE6kS-Aq75A" type="2007" element="_yKWusGcuEeuLE6kS-Aq75A" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_yKYj4mcuEeuLE6kS-Aq75A" type="5007"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yKYj4WcuEeuLE6kS-Aq75A" x="30" y="30"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_zgZUkGcuEeuLE6kS-Aq75A" type="2027" element="_zgYtgGcuEeuLE6kS-Aq75A" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zgZUkmcuEeuLE6kS-Aq75A" type="5027"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zgZUkWcuEeuLE6kS-Aq75A" x="35" y="130"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_xlr7YmcuEeuLE6kS-Aq75A"/>
+    <edges xmi:type="notation:Connector" xmi:id="_0ORHMWcuEeuLE6kS-Aq75A" type="4001" element="_0ORHMGcuEeuLE6kS-Aq75A" source="_yKYj4GcuEeuLE6kS-Aq75A" target="_zgZUkGcuEeuLE6kS-Aq75A">
+      <styles xmi:type="notation:FontStyle" xmi:id="_0ORHMmcuEeuLE6kS-Aq75A" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0ORHM2cuEeuLE6kS-Aq75A" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ORuQGcuEeuLE6kS-Aq75A" id="(0.49523809523809526,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ozHEGcuEeuLE6kS-Aq75A" id="(0.5,0.0)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

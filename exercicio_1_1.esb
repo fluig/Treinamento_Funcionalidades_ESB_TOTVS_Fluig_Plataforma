@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.totvs.com/ESB/Components" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <Diagram xmi:id="_bCjw4GcnEeuLE6kS-Aq75A" comments="">
+    <Receiver xmi:type="FileReceiver" xmi:id="_b1PyEGcnEeuLE6kS-Aq75A" name="FileReceiver0" errorInterval="600" enabled="true" interval="60" directory="C:\Users\Administrador.EC2AMAZ-RR9E5DT\Desktop\Treinamento\ex_1.1\in" deleteFile="true" bigMessage="false">
+      <Relations xmi:type="Link" xmi:id="_ec2GcGcnEeuLE6kS-Aq75A" Source="_b1PyEGcnEeuLE6kS-Aq75A" Target="_cdT3oGcnEeuLE6kS-Aq75A"/>
+    </Receiver>
+    <Sender xmi:type="FileSender" xmi:id="_cdT3oGcnEeuLE6kS-Aq75A" name="FileSender0" errorInterval="5" tries="3" persist="false" directory="C:\Users\Administrador.EC2AMAZ-RR9E5DT\Desktop\Treinamento\ex_1.1\out" append="false"/>
+  </Diagram>
+  <notation:Diagram xmi:id="_bCjw4WcnEeuLE6kS-Aq75A" type="Esb" element="_bCjw4GcnEeuLE6kS-Aq75A" name="exercicio_ler_arquivo.esb" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_b1RAMGcnEeuLE6kS-Aq75A" type="2026" element="_b1PyEGcnEeuLE6kS-Aq75A" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_b1RAMmcnEeuLE6kS-Aq75A" type="5026"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b1RAMWcnEeuLE6kS-Aq75A" x="30" y="30"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_cdUesGcnEeuLE6kS-Aq75A" type="2027" element="_cdT3oGcnEeuLE6kS-Aq75A" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cdUesmcnEeuLE6kS-Aq75A" type="5027"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cdUesWcnEeuLE6kS-Aq75A" x="35" y="130"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_bCjw4mcnEeuLE6kS-Aq75A"/>
+    <edges xmi:type="notation:Connector" xmi:id="_ec2tgGcnEeuLE6kS-Aq75A" type="4001" element="_ec2GcGcnEeuLE6kS-Aq75A" source="_b1RAMGcnEeuLE6kS-Aq75A" target="_cdUesGcnEeuLE6kS-Aq75A">
+      <styles xmi:type="notation:FontStyle" xmi:id="_ec2tgWcnEeuLE6kS-Aq75A" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ec2tgmcnEeuLE6kS-Aq75A" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ec5w0GcnEeuLE6kS-Aq75A" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ec5w0WcnEeuLE6kS-Aq75A" id="(0.5,0.0)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
